@@ -1,4 +1,4 @@
 def add(x,y):
     return x+y
 
-map(add,[1,2,3,4,5,6,7,8,9])
+print reduce(add,[1,3,5,7,9])
